@@ -2,6 +2,4 @@ _drafts/
 _site/
 .DS_Store
 *.swp
-_jekyll_s3.yml
-s3_website.yml
 Gemfile.lock
