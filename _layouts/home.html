@@ -1,0 +1,20 @@
+---
+layout: main
+---
+
+<div class="container">
+    <div class="headers">
+        <h1> {{site.name}}</h1>
+        <h2> {{site.description}}</h2>
+    </div>
+    <div class="signup">
+        <h4>Coming soon - Subscribe for updates</h4>
+        {% include mailchimp.html %}
+    </div>
+    <div class="jekyll-logo">
+        {% image jekyll.png %}
+    </div>
+    <footer class="footer">
+        {% include copyright.html %}
+    </footer>
+</div>
